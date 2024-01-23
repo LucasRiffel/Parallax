@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #b6b6b6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+h2 {
+    font-weight: 900;
+    color: #ffffff;
+    font-family: oswald;
+
+}
+
+.cabecalho {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.modulo p {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+section.modulo:last-child {
+    margin-bottom: 0;
+}
+
+section.modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.modulo.content {
+    padding: 40px 0;
+    background: rgba(103, 91, 112, 1.0);
+    background: linear-gradient(0deg, rgb(110, 110, 110), rgb(8, 8, 8));
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.modulo.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
+
+
+section.modulo.parallax-1 {
+    background-image: url("https://conteudo.imguol.com.br/c/esporte/74/2016/12/08/maicon-levanta-a-taca-de-campeao-da-copa-do-brasil-1481163894611_1920x1279.jpg");
+}
+
+section.modulo.parallax-2 {
+    background-image: url("https://th.bing.com/th/id/R.a909f1166e653b4da4947f8c041d022b?rik=haSoTB%2fWPb4apA&riu=http%3a%2f%2fpradoonline.com%2fwp-content%2fuploads%2f2017%2f11%2fgremio.jpg&ehk=bBDcOJwmf18tuh6fIkNSNFGgVoh2oz9hc1%2flIMPgAE4%3d&risl=&pid=ImgRaw&r=0");
+}
+
+section.modulo.parallax-3 {
+    background-image: url("https://gremio.blob.core.windows.net/imgs-site/lg-noticias-geromel-a--convocado-para-amistosos-da-selea-a-o-brasileira-na-europa-20672.jpg");
+}
+
+section.modulo.parallax h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 820px) {
+    section.modulo h2 {
+        font-size: 32px;
+    }
+
+    .modulo h2,
+    p {
+        padding: 0 8px;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    section.modulo.parallax h1 {
+        font-size: 36px;
+    }
+}
+
+
+.conteudo {
+    background: linear-gradient(0deg, rgb(133, 133, 133),  rgb(110, 110, 110));  
+    width: 100%; 
+    text-align: center;
+}
+
+.footer p{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: oswald;
+    color: #ffffff;
+}
+
+.footer .copy{
+    color: #ffffff;
+    text-decoration: yes;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #5e5e5e;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #58a2a5; 
+    background: linear-gradient(50deg, white , black , blue);
+}
